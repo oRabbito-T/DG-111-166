@@ -12,7 +12,6 @@ Win & Show --> End([End])
 
 ```
 
-
 ---
 
 ```mermaid
@@ -24,4 +23,5 @@ flowchart TD
   Xp1 ---> Xp2["current_xp = 0"]
   Xp2 --> S[/แสดง level และ current_xp /]
   D1 --> |No| S[/แสดง level และ current_xp /]
+  S --> End([End])
 ```
