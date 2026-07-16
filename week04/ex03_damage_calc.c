@@ -24,9 +24,11 @@ int main()
     if (is_critical)
     {
         base_damage = (int)ceil((float)(base_damage * 1.5f));
+        printf("\nDamage: %.2f *** CRITICAL HIT! x1.5 ***\n", base_damage);
     }
+    else
 
-    printf("\nDamage: %.2f\n", base_damage);
+        printf("\nDamage: %.2f (Normal)\n", base_damage);
 
     return 0;
 }
